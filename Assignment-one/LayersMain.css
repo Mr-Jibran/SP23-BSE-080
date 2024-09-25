@@ -1,0 +1,408 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.mainImg{
+    background-image: url('./IconsImages/cover_image.jpg');
+    width: 100%;
+    height: 60vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+/* ------------------------------- NAVBAR ------------------------------------------------ */
+
+#MainSection{
+    border: 1px solid black;
+}
+
+#header{
+    display: flex;
+    justify-content: space-around;
+    background-color: #f9f9f9;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    padding: 5px;
+}
+
+.Location{
+    background-color: #B09C6D;
+    border-radius: 25px;
+    display: inline;
+    width: 15%;
+    padding: 15px 30px 15px 40px;
+}
+
+.LocBtn{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: white;
+}
+
+.icons{
+    width: 20%;
+    display: flex;
+    overflow: hidden;
+    justify-content: end;
+    align-items: center;
+}
+
+.DropDowns{
+    width: 60%;
+}
+
+.icon{
+    width: 25px;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+ul.navbar{
+    margin-top: 10px;
+}
+
+ul.navbar li{
+    display: inline;
+    justify-items: center;
+    list-style-type: none;
+}
+
+ul.navbar li a{
+    margin-left: 40px;
+    display: inline;
+    align-content: baseline;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+/* ------------------------------------------------  SECTION 1    ------------------------------------------------------------------- */
+
+#Section-Content{
+    height: 93vh;
+    margin: 5px 10px 0 10px;
+}
+
+.Section-img-div{
+    float: left;
+    width: 45%;
+}
+
+.Section-para-div{
+    display: inline;
+    float: right;
+    padding: 25px;
+    margin-top: 5px 30px 0 0;
+    width: 55%;
+}
+
+.Section-img-div img{
+    transition: transform 0.3s ease-in-out;
+}
+
+.Section-img-div img:hover{
+    transform: scale(1.1);
+}
+
+.Section-para-div span.Welcome{
+    color: #777777;
+    display: block;
+    font-size: large;
+    font-family: sans-serif;
+}
+
+.Section-para-div span.Layer-span{
+    font-family: "Dancing Script", cursive;
+    font-size: xx-large;
+    font-weight: 600;
+}
+
+span.Layer-span span{
+    color: #B09C6D;
+}
+
+.Section-para-div p.SecP{
+    color: #777777;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Cakes-icons div.cake-div1{
+    height: 90px;
+    margin: 15px 0px 15px 0px ;
+}
+
+.Cakes-icons div.cake-div2{
+    height: 90px;
+    margin: 25px 0 0 0;
+}
+
+div.Cakes-icons div.cake-div1 div{
+    width: 15%;
+    height: 100%;
+    margin-left: 15px;
+    border-radius: 100%;
+    background-color: #EBE4DAE6;
+    float: left;
+}
+
+div.cake-div1 img{
+    margin-top: 13px;
+    margin-left: 20px;
+}
+
+div.cake-div2 img{
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+div.Cakes-icons div.cake-div2 div{
+    width: 15%;
+    height: 100%;
+    margin-left: 15px;
+    border-radius: 100%;
+    background-color: #EBE4DAE6;
+    float: left;
+}
+
+div.Cakes-icons div.cake-div1 h2{
+    display: inline;
+    width: 80%;
+    float: right;
+    margin-top: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+
+div.Cakes-icons div.cake-div2 h2{
+    display: inline;
+    width: 80%;
+    float: right;
+    margin-top: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    
+}
+
+/* ------------------------------------------------------------- SECTION 2 ------------------------------------------------ */
+
+#SecondSection{
+    background-color: rgb(236, 240, 241);
+    height: 80vh;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+div#SecondSection div.Text-div{
+    width: 35%;
+    height: 100%;
+    margin-top: 35px;
+}
+
+#SecondSection div.Img1-div{
+    width: 30%;
+    height: 100%;
+    margin-top: 35px;
+}
+
+#SecondSection div.Img1-div img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+#SecondSection div.Img2-div{
+    width: 30%;
+    height: 100%;
+    margin-top: 35px;
+}
+
+#SecondSection div.Img2-div img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+span.IntroSpan{
+    display: block;
+    margin-top: 20px;
+    padding-left: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    color: #777777;
+}
+
+span.SecSpan2nd{
+    display: block;
+    margin-top: 15px;
+    padding-left: 20px;
+    font-weight: 600;
+    font-size: xx-large;
+    font-family: "Dancing Script";
+}
+
+div#SecondSection div.Text-div p{
+    color: #777777;
+    padding: 0 20px 0 20px;
+    margin-top: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div.Text-div button.Sec2ndBtn{
+    padding: 10px 35% 10px 35%;
+    margin-left: 20px;
+    cursor: pointer;
+    border: none;
+    background-color: #B09C6D;
+    color: white;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ------------------------------------------------  SECTION 3 & 4    ------------------------------------------------------------------- */
+
+
+div#ThirdSection{
+    height: 120vh;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+div#ThirdSection div.div-left{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+div#ThirdSection div.div-left img{
+    width: 100%;
+    height: 100%;
+}
+
+div#ThirdSection div.div-right{
+    width: 45%;
+    height: 100%;
+    float: right;
+}
+
+div#ThirdSection div.div-right h1{
+    text-align: center;
+    margin: 90px 0 0 0;
+    padding: 20px 0 20px 0;
+    font-family: "Dancing Script";
+}
+
+div#CardSlider{
+    width: 100%;
+    height: 70%;
+}
+
+div#CardSlider div.slide-img1{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+div#CardSlider div.slide-img1 div.image img{
+    width: 280px;
+
+}
+
+div#CardSlider div.slide-img2{
+    width: 50%;
+    height: 100%;
+    float: right;
+}
+
+div#CardSlider div.slide-img2 div.image img{
+    width: 280px;
+}
+
+div.description{
+    margin: 10px 0 0 0;
+}
+
+div.description h2{
+    font-family: "Dancing Script";
+    color: #242424;
+}
+
+div.description h2:hover{
+    color: #B09C6D;
+    cursor: pointer;
+}
+
+div.description p{
+    line-height: 130%;
+    padding: 5px 0 5px 0 ;
+    font-weight: 500;
+    font-size: large;
+    color: #777777;
+}
+
+div.description span.Rs{
+    display: block;
+    color: #B09C6D;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 8px 0 12px 0;
+}
+
+div.description button.negative-btn, button.positive-btn{
+    border: none;
+    border-radius: 100%;
+    cursor: pointer;
+    background-color: #f9f9f9;
+    margin: 5px 10px 0 10px;
+    padding: 10px;
+}
+
+div.description span.counter{
+    background-color: rgb(236, 240, 241);
+    padding: 10px;
+    border-radius: 100%;
+}
+
+div.description button.AddToCart-Btn{
+    margin: 0 0 0 5px;
+    padding: 10px 15px 10px 15px;
+    border: none;
+    background-color: #B09C6D;
+    cursor: pointer;
+    color: white;
+}
+
+/* ------------------------------------------------  SECTION 5    ------------------------------------------------------------------- */
+
+div#FifthSection{
+    height: 120vh;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+div#FifthSection div.div-left{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+div#FifthSection div.div-left img{
+    width: 100%;
+    height: 100%;
+}
+
+div#FifthSection div.div-right{
+    width: 45%;
+    height: 100%;
+    float: right;
+}
+
+div#FifthSection div.div-right h1{
+    text-align: center;
+    margin: 90px 0 0 0;
+    padding: 20px 0 20px 0;
+    font-family: Dancing Script;
+}
